@@ -1,6 +1,7 @@
 //
 //  ViewController.swift
 //  BullsEye
+//  iOS11 and Swift 4 for Beginners | Ray Wenderlich | Udemy video course
 //
 //  Created by James Slusser on 8/6/18.
 //  Copyright © 2018 James Slusser. All rights reserved.
@@ -22,7 +23,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         currentValue = lroundf(slider.value)
-        startNewRound()
+        startNewGame()
     }
 
     func updateLabels() {
@@ -76,16 +77,22 @@ class ViewController: UIViewController {
         
         let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
         
-        let action = UIAlertAction(title: "Awesome", style: .default, handler: nil)
+        let action = UIAlertAction(title: "Awesome", style: .default, handler: {
+            action in
+            self.startNewRound()
+        })
         
         alert.addAction(action)
         
         present(alert, animated: true, completion: nil)
         
-        startNewRound()
     }
    
-
+    @ IBAction func startNewGame() {
+        scoreValue = 0
+        roundValue = -1
+        startNewRound()
+    }
     
 }
 
