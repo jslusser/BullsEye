@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9469925E2126475200BD52FF /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 9469925D2126475100BD52FF /* BullsEye.html */; };
 		946D47342118F1F700CB656A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946D47332118F1F700CB656A /* AppDelegate.swift */; };
 		946D47362118F1F700CB656A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946D47352118F1F700CB656A /* ViewController.swift */; };
 		946D47392118F1F700CB656A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 946D47372118F1F700CB656A /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9469925D2126475100BD52FF /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 		946D47302118F1F700CB656A /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		946D47332118F1F700CB656A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		946D47352118F1F700CB656A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 		946D47322118F1F700CB656A /* BullsEye */ = {
 			isa = PBXGroup;
 			children = (
+				9469925D2126475100BD52FF /* BullsEye.html */,
 				946D47332118F1F700CB656A /* AppDelegate.swift */,
 				946D47352118F1F700CB656A /* ViewController.swift */,
 				949BEFB62125BEBA002AED8F /* AboutViewController.swift */,
@@ -129,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				946D473E2118F1FB00CB656A /* LaunchScreen.storyboard in Resources */,
+				9469925E2126475200BD52FF /* BullsEye.html in Resources */,
 				946D473B2118F1FB00CB656A /* Assets.xcassets in Resources */,
 				946D47392118F1F700CB656A /* Main.storyboard in Resources */,
 			);
